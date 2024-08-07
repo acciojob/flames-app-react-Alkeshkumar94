@@ -71,14 +71,14 @@ const App = () => {
       <form onSubmit={calculateRelation}>
         <input
           data-testid="input1"
-          name="input1"
+          name="name1"
           value={input1}
           onChange={input1Handle}
           placeholder="Enter first name"
         />
         <input
           data-testid="input2"
-          name="input2"
+          name="name2"
           value={input2}
           onChange={input2Handle}
           placeholder="Enter second name"
