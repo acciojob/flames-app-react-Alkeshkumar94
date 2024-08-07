@@ -54,12 +54,12 @@ const App =()=>{
     }
         return(
             <div id="main">
-              <input data-testid="input1" value={input1} onChange={input1Handle} placeholder="Enter first name" />
-              <input data-testid="input2" value={input2} onChange={input2Handle} placeholder="Enter second name"/>
+              <input data-testid="input1"  value={input1} onChange={input1Handle} placeholder="Enter first name" />
+              <input data-testid="input2"  value={input2} onChange={input2Handle} placeholder="Enter second name"/>
               <button data-testid="calculate_relationship" onClick={calculateRelation}>Calculate Relationship Future</button>
               <button data-testid="clear" onClick={clear}>Clear</button>
 
-              <h3>
+              <h3 data-testid="answer">
                 {
                     result
                 }
